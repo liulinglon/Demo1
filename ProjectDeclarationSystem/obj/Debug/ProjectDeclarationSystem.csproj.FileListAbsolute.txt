@@ -1,4 +1,3 @@
-D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\ProjectDeclarationSystem\bin\ProjectDeclarationSystem.dll.config
 D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\ProjectDeclarationSystem\bin\ProjectDeclarationSystem.dll
 D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\ProjectDeclarationSystem\bin\ProjectDeclarationSystem.pdb
 D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\ProjectDeclarationSystem\bin\roslyn\csc.exe
@@ -52,8 +51,6 @@ D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\Projec
 D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\ProjectDeclarationSystem\bin\roslyn\VBCSCompiler.exe.config
 D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\ProjectDeclarationSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\ProjectDeclarationSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\ProjectDeclarationSystem\obj\Debug\ProjectDeclarationSystem.csproj.CoreCompileInputs.cache
-D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\ProjectDeclarationSystem\obj\Debug\ProjectDeclarationSystem.csproj.CopyComplete
 D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\ProjectDeclarationSystem\obj\Debug\ProjectDeclarationSystem.dll
 D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\ProjectDeclarationSystem\obj\Debug\ProjectDeclarationSystem.pdb
 D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\ProjectDeclarationSystem\bin\EntityFramework.dll
@@ -61,4 +58,7 @@ D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\Projec
 D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\ProjectDeclarationSystem\bin\EntityFramework.xml
 D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\ProjectDeclarationSystem\bin\EntityFramework.SqlServer.xml
 D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\ProjectDeclarationSystem\bin\zh-Hans\EntityFramework.resources.dll
+D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\ProjectDeclarationSystem\bin\ProjectDeclarationSystem.dll.config
 D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\ProjectDeclarationSystem\obj\Debug\ProjectDeclarationSystem.csproj.AssemblyReference.cache
+D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\ProjectDeclarationSystem\obj\Debug\ProjectDeclarationSystem.csproj.CoreCompileInputs.cache
+D:\Users\liulinglong\Desktop\Project declaration\ProjectDeclarationSystem\ProjectDeclarationSystem\obj\Debug\ProjectDeclarationSystem.csproj.CopyComplete

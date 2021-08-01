@@ -6,6 +6,7 @@
 <head>
     <title>se7en - Dashboard
     </title>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700" media="all" rel="stylesheet" type="text/css" />
     <link href="stylesheets/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
     <link href="stylesheets/font-awesome.css" media="all" rel="stylesheet" type="text/css" />
