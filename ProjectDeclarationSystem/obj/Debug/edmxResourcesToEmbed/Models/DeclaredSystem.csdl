@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DeclaredSystemModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="administrator">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="date_register" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="expert">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="xiangmu_id" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="zZhuanjia_id" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="xiangmumingc" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="mima" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="e_mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="danwei" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="birthday" Type="DateTime" Precision="3" />
+    <Property Name="xueli" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="xuewei" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="mingzu" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="e_mail" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="department" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="DeclaredSystemEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="administrators" EntityType="Self.administrator" />
+    <EntitySet Name="experts" EntityType="Self.expert" />
+    <EntitySet Name="users" EntityType="Self.user" />
+  </EntityContainer>
+</Schema>

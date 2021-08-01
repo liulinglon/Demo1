@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DeclaredSystemModelStoreContainer" CdmEntityContainer="DeclaredSystemEntities">
+    <EntitySetMapping Name="administrators">
+      <EntityTypeMapping TypeName="DeclaredSystemModel.administrator">
+        <MappingFragment StoreEntitySet="administrators">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="date_register" ColumnName="date_register" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="experts">
+      <EntityTypeMapping TypeName="DeclaredSystemModel.expert">
+        <MappingFragment StoreEntitySet="expert">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="xiangmu_id" ColumnName="xiangmu_id" />
+          <ScalarProperty Name="zZhuanjia_id" ColumnName="zZhuanjia_id" />
+          <ScalarProperty Name="xiangmumingc" ColumnName="xiangmumingc" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="mima" ColumnName="mima" />
+          <ScalarProperty Name="e_mail" ColumnName="e-mail" />
+          <ScalarProperty Name="danwei" ColumnName="danwei" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="DeclaredSystemModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="birthday" ColumnName="birthday" />
+          <ScalarProperty Name="xueli" ColumnName="xueli" />
+          <ScalarProperty Name="xuewei" ColumnName="xuewei" />
+          <ScalarProperty Name="mingzu" ColumnName="mingzu" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="e_mail" ColumnName="e-mail" />
+          <ScalarProperty Name="department" ColumnName="department" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

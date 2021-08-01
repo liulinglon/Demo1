@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DeclaredSystemModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="administrators">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+    <Property Name="password" Type="nvarchar" MaxLength="20" />
+    <Property Name="date_register" Type="datetime" />
+  </EntityType>
+  <!--生成过程中发现错误:
+警告 6013: 表/视图“DeclaredSystem.dbo.applyTime”未定义主键，并且无法推断有效的主键。已排除了此表/视图。若要使用实体，将需要检查您的架构、添加正确的键并取消对实体的注释。
+        <EntityType Name="applyTime">
+          <Property Name="Start_Time" Type="datetime" />
+          <Property Name="End_Time" Type="datetime" />
+        </EntityType>-->
+  <EntityType Name="expert">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="xiangmu_id" Type="nvarchar" MaxLength="50" />
+    <Property Name="zZhuanjia_id" Type="nvarchar" MaxLength="50" />
+    <Property Name="xiangmumingc" Type="nvarchar" MaxLength="1000" />
+    <Property Name="phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="mima" Type="nvarchar" MaxLength="50" />
+    <Property Name="e-mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="danwei" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="20" />
+    <Property Name="password" Type="nvarchar" MaxLength="20" />
+    <Property Name="name" Type="nvarchar" MaxLength="20" />
+    <Property Name="birthday" Type="datetime" />
+    <Property Name="xueli" Type="nvarchar" MaxLength="20" />
+    <Property Name="xuewei" Type="nvarchar" MaxLength="20" />
+    <Property Name="mingzu" Type="nvarchar" MaxLength="20" />
+    <Property Name="phone" Type="nvarchar" MaxLength="20" />
+    <Property Name="e-mail" Type="nvarchar" MaxLength="20" />
+    <Property Name="department" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityContainer Name="DeclaredSystemModelStoreContainer">
+    <EntitySet Name="administrators" EntityType="Self.administrators" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="expert" EntityType="Self.expert" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
